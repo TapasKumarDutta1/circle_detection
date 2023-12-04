@@ -21,3 +21,6 @@ Two strategies were tested and found to be less effective:
 
 ## Sample output plotted against training samples
 ![images](img/sample_output.png)
+
+## Note
+Since the work extensively uses cv2.circle for visualization the row and col variables are reversed during dataset creation, model prediction and evaluation.
